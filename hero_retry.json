@@ -1,0 +1,8 @@
+{
+  "error": {
+    "message": "Invalid value: '10'. Supported values are: '4', '8', and '12'.",
+    "type": "invalid_request_error",
+    "param": "seconds",
+    "code": "invalid_value"
+  }
+}
