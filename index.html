@@ -16,9 +16,7 @@
     <header class="bg-gray-950 border-b border-gray-800 sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
             <div class="flex items-center space-x-3">
-                <!-- Logo - Replace with actual logo file -->
                 <img src="assets/logos/trustcat-logo-horizontal.svg" alt="TrustCat.ai" class="h-12 w-auto">
-                <span class="text-2xl font-bold text-white">TRUSTCAT<span class="text-blue-400">.ai</span></span>
             </div>
             <button class="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition">
                 Get Started
@@ -276,7 +274,7 @@
             <div class="grid md:grid-cols-2 gap-12 items-start mb-12">
                 <div class="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-2xl border border-gray-700">
                     <h3 class="text-2xl font-bold text-white mb-6 flex items-center">
-                        <img src="assets/logos/trustcat-icon.svg" class="w-10 h-10" alt="TrustCat AI">
+                        <img src="assets/logos/trustcat-icon.svg" class="w-10 h-10 mr-3" alt="TrustCat AI">
                         TrustCat.ai Dental LLM
                     </h3>
                     <ul class="space-y-4">
@@ -365,6 +363,7 @@
                 </div>
             </div>
 
+            <!-- UPDATED BLOCKCHAIN SECTION -->
             <div class="bg-gradient-to-br from-blue-950 to-indigo-950 p-8 rounded-2xl border-2 border-blue-700">
                 <div class="flex items-start">
                     <div class="bg-blue-600 text-white w-12 h-12 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
@@ -373,26 +372,86 @@
                         </svg>
                     </div>
                     <div class="flex-1">
-                        <h3 class="text-2xl font-bold text-white mb-3">Blockchain Verification (Verified Tier Only)</h3>
-                        <p class="text-gray-300 mb-4">When you upgrade to dentist verification, we record everything on-chain using Chainlink oracles. This creates an immutable, cryptographically-verifiable record that proves:</p>
-                        <div class="grid md:grid-cols-2 gap-4">
-                            <div class="flex items-start">
-                                <span class="text-blue-400 mr-2">✓</span>
-                                <p class="text-gray-300"><span class="text-white font-semibold">Your X-rays weren't altered</span> - Hash verification ensures image integrity</p>
+                        <h3 class="text-2xl font-bold text-white mb-3">Blockchain Verification: Zero-Trust Architecture</h3>
+
+                        <div class="bg-gray-900 rounded-lg p-4 mb-4 border border-blue-800">
+                            <h4 class="text-sm font-bold text-blue-400 uppercase mb-2">🔒 YOUR DATA SECURITY</h4>
+                            <ul class="space-y-2 text-sm text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-blue-400 mr-2">→</span>
+                                    <span><strong>We don't hold your X-rays.</strong> Images are encrypted and stored on IPFS (decentralized storage). Only you control access.</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-blue-400 mr-2">→</span>
+                                    <span><strong>No PHI on blockchain.</strong> Personal health information never touches the chain - only cryptographic hashes and verification proofs.</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-blue-400 mr-2">→</span>
+                                    <span><strong>End-to-end encryption.</strong> Military-grade AES-256 encryption from upload to delivery.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <p class="text-gray-300 mb-4">When you upgrade to dentist verification, we create an immutable audit trail using industry-standard blockchain infrastructure:</p>
+
+                        <div class="grid md:grid-cols-2 gap-4 mb-4">
+                            <div class="bg-gray-900 rounded-lg p-4 border border-gray-800">
+                                <h5 class="text-blue-400 font-bold mb-2 flex items-center">
+                                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    Chainlink Oracles
+                                </h5>
+                                <p class="text-sm text-gray-400">The gold standard for blockchain verification. Chainlink's decentralized oracle network connects our AI infrastructure to Base L2, ensuring tamper-proof data feeds.</p>
+                                <p class="text-xs text-gray-500 mt-2">Used by: Aave, Synthetix, Compound</p>
                             </div>
-                            <div class="flex items-start">
-                                <span class="text-blue-400 mr-2">✓</span>
-                                <p class="text-gray-300"><span class="text-white font-semibold">AI analysis actually ran</span> - Compute execution recorded on-chain</p>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-blue-400 mr-2">✓</span>
-                                <p class="text-gray-300"><span class="text-white font-semibold">Real licensed dentist reviewed</span> - Digital signature verification</p>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="text-blue-400 mr-2">✓</span>
-                                <p class="text-gray-300"><span class="text-white font-semibold">Findings can't be changed</span> - Immutable blockchain record</p>
+                            
+                            <div class="bg-gray-900 rounded-lg p-4 border border-gray-800">
+                                <h5 class="text-blue-400 font-bold mb-2 flex items-center">
+                                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z"/>
+                                    </svg>
+                                    Base L2 (Coinbase)
+                                </h5>
+                                <p class="text-sm text-gray-400">Ethereum Layer 2 built by Coinbase. Low fees (~$0.01/tx), fast finality (2 sec), inherits Ethereum's security. Perfect for healthcare verification at scale.</p>
+                                <p class="text-xs text-gray-500 mt-2">Backed by: Coinbase, Optimism</p>
                             </div>
                         </div>
+
+                        <div class="bg-blue-950/30 rounded-lg p-4 border border-blue-800 mb-4">
+                            <h5 class="text-white font-bold mb-3">📝 What Gets Recorded On-Chain:</h5>
+                            <div class="grid md:grid-cols-2 gap-3">
+                                <div class="flex items-start">
+                                    <span class="text-blue-400 mr-2">✓</span>
+                                    <div class="text-sm">
+                                        <p class="text-white font-semibold">X-ray Image Hash</p>
+                                        <p class="text-gray-400">SHA-256 hash proves file integrity</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <span class="text-blue-400 mr-2">✓</span>
+                                    <div class="text-sm">
+                                        <p class="text-white font-semibold">AI Model Version</p>
+                                        <p class="text-gray-400">Proves which model ran analysis</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <span class="text-blue-400 mr-2">✓</span>
+                                    <div class="text-sm">
+                                        <p class="text-white font-semibold">Dentist Digital Signature</p>
+                                        <p class="text-gray-400">Cryptographic proof of review</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <span class="text-blue-400 mr-2">✓</span>
+                                    <div class="text-sm">
+                                        <p class="text-white font-semibold">Timestamp & Block Number</p>
+                                        <p class="text-gray-400">Immutable audit trail</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="mt-6 p-4 bg-blue-900/30 rounded-lg border border-blue-800">
                             <p class="text-blue-300 text-sm">
                                 <span class="font-bold">Trust in Chain™:</span> Verified reports include a blockchain certificate. Anyone can independently verify the entire analysis chain using the block explorer - no trusting us required.
@@ -491,7 +550,7 @@
             <div class="grid md:grid-cols-4 gap-8 mb-8">
                 <div>
                     <div class="flex items-center space-x-2 mb-4">
-                        <div class="text-3xl">🐱</div>
+                        <img src="assets/logos/trustcat-icon.svg" class="w-8 h-8" alt="TrustCat.ai">
                         <h3 class="text-white font-bold text-lg">TrustCat.ai</h3>
                     </div>
                     <p class="text-sm">AI-powered dental analysis with optional dentist verification.</p>
