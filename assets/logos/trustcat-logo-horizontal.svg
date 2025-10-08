@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="500" height="120">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap');
+    </style>
+  </defs>
+  
+  <!-- Cat Icon (scaled smaller) -->
+  <g transform="translate(60, 60) scale(0.5)">
+    <path d="M -50 -70 L -60 -110 L -30 -85 Z" fill="none" stroke="#3B82F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 50 -70 L 60 -110 L 30 -85 Z" fill="none" stroke="#3B82F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M -50 -70 Q -65 -45 -65 -10 Q -65 35 -45 60 Q -25 80 0 80 Q 25 80 45 60 Q 65 35 65 -10 Q 65 -45 50 -70" 
+          fill="none" stroke="#3B82F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M -30 -20 Q -30 -35 -20 -35 Q -10 -35 -10 -20" fill="none" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 10 -20 Q 10 -35 20 -35 Q 30 -35 30 -20" fill="none" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+    <path d="M -7 0 L 0 12 L 7 0 Q 4 -4 0 -4 Q -4 -4 -7 0 Z" fill="#3B82F6"/>
+    <path d="M 0 12 Q -18 28 -25 22" fill="none" stroke="#3B82F6" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 0 12 Q 18 28 25 22" fill="none" stroke="#3B82F6" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="110" y="75" font-family="'Inter', sans-serif" font-size="48" font-weight="800" fill="white" letter-spacing="-1">TRUSTCAT</text>
+  <text x="395" y="75" font-family="'Inter', sans-serif" font-size="48" font-weight="800" fill="#3B82F6">.ai</text>
+</svg>
